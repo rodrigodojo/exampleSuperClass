@@ -8,9 +8,9 @@ public class BusinnesAccount extends Account{
 		super();
 	}
 
-	public BusinnesAccount(Integer number, String holder, Double balance, Double loanLimit) {
+	public BusinnesAccount(Integer number, String holder, Double balance, Double i) {
 		super(number, holder, balance);
-		this.loanLimit = loanLimit;
+		this.loanLimit = i;
 	}
 
 	public Double getLoanLimit() {
